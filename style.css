@@ -66,6 +66,10 @@ h1 a:hover {
   color: #f4f4f4;
 }
 
+.link {
+  color: #fd8d3c !important;
+}
+
 .description li {
   padding: 2px;
 }

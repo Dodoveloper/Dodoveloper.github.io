@@ -23,6 +23,17 @@
       <p>Meteorite Landings is a data visualization project. It shows the
       meteorites which fell to the Earth listed per decades, starting from 1950
       to 2010.</p>
+      <p>The dataset is supplied by the Meteoritical Society and it is available
+      at <a class="link "href="https://data.nasa.gov/Space-Science/Meteorite-Landings/ak9y-cwf9" target="_blank">this</a>
+      link. It consists of 45716 entries, and it contains information on all of
+      the known meteorite landings, updated at May 2013, and includes various
+      fields. The ones used for this visualization are the name, the composition,
+      the mass, the year of collision and the location.</p>
+      <p>I slimmed down the dataset by listing the meteorites per decade. I
+      chose to analyze the recent past because the number of registered
+      meteorites before 1950 are very few. I also kept out the ones dated
+      between 2010 and 2013 because their information is not complete: they
+      probably were still being studied.</p>
       <h2>ANALYSIS</h2>
       <p>The meteorites themselves are represented with coloured circles.
       By hovering them you can find the following information: </p>
@@ -41,10 +52,8 @@
         <li id="heavy">Heavy</li>
         <li id="heavier">Very heavy</li>
       </ul>
-      <p>The weight values have been computed so that each class contains the
-      same amount of meteorites.</p>
-      <h2>CONCLUSIONS</h2>
-      <p>Here are the total numbers of registered meteorites per decade: </p>
+      <p>Finally, here are the total numbers of registered meteorites per
+      decade: </p>
       <ul class="counts">
         <li>1950-1960: 212</li>
         <li>1960-1970: 397</li>
@@ -53,6 +62,9 @@
         <li>1990-2000: 11619</li>
         <li>2000-2010: 17757</li>
       </ul>
+      <p>The weight values have been computed so that each class contains the
+      same amount of meteorites.</p>
+      <h2>CONCLUSIONS</h2>
       <p>Since in each decade the classes contain the same amount of meteorites
       filtered by weight, it is easy to see how most of the meteorites are
       actually quite light, a few kilograms at most.</p>
