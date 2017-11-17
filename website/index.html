@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Meteorite Landings</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+  <body>
+    <h1><a href="index.html">METEORITE LANDINGS</a></h1>
+    <div class="navbar">
+      <ul>
+        <li><a href="50_60/1950_1960.html">1950-1960</a></li>
+        <li><a href="60_70/1960_1970.html">1960-1970</a></li>
+        <li><a href="70_80/1970_1980.html">1970-1980</a></li>
+        <li><a href="80_90/1980_1990.html">1980-1990</a></li>
+        <li><a href="90_00/1990_2000.html">1990-2000</a></li>
+        <li><a href="00_10/2000_2010.html">2000-2010</a></li>
+      </ul>
+    </div>
+    <div class="description">
+      <h2>CONCEPT</h2>
+      <p>Meteorite Landings is a data visualization project. It shows the
+      meteorites which fell to the Earth listed per decades, starting from 1950
+      to 2010.</p>
+      <h2>ANALYSIS</h2>
+      <p>The meteorites themselves are represented with coloured circles.
+      By hovering them you can find the following information: </p>
+      <ul>
+        <li>Name of the meteorite</li>
+        <li>Composition</li>
+        <li>Weight, declared ad kilograms</li>
+        <li>Year of collision</li>
+      </ul>
+      <p>In addition, the circles representing the meteorites show different
+      colours based on their weight: </p>
+      <ul>
+        <li id="lighter">Very light</li>
+        <li id="light">Light</li>
+        <li id="medium">Medium</li>
+        <li id="heavy">Heavy</li>
+        <li id="heavier">Very heavy</li>
+      </ul>
+      <p>The weight values have been computed so that each class contains the
+      same amount of meteorites.</p>
+      <h2>CONCLUSIONS</h2>
+      <p>Here are the total numbers of registered meteorites per decade: </p>
+      <ul class="counts">
+        <li>1950-1960: 212</li>
+        <li>1960-1970: 397</li>
+        <li>1970-1980: 4969</li>
+        <li>1980-1990: 6822</li>
+        <li>1990-2000: 11619</li>
+        <li>2000-2010: 17757</li>
+      </ul>
+      <p>Since in each decade the classes contain the same amount of meteorites
+      filtered by weight, it is easy to see how most of the meteorites are
+      actually quite light, a few kilograms at most.</p>
+      <p>It is also interesting to notice how the number of registered meteorites
+      has increased during the years, but their medium weight has decreased.
+      That is probably not a coincidence: the fact that a large majority of
+      meteorites weights less than one kilogram means that the technology
+      improvements has made us able to identify the smaller ones.</p>
+      <p>Furthermore, as the Antarctica is the continent with the most
+      collisions, acknowledging that during the '50s none has been registered may
+      seem strange. But that's proof of the fact that human expeditions to
+      Antarctica boosted later. Looking at the decades, it is way more evident
+      how the number of circles grows significantly in the recent past.</p>
+    </div>
+    <div class="footer">
+      <p>The project was made using QGIS to store and style the dataset,
+      then the qgis2web plugin to export the map templates.</p>
+      <h3>Davide Cortellucci</h3>
+    </div>
+  </body>
+</html>

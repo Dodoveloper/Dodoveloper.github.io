@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Kanit:200');
+
+body {
+  background-color: #d6d6d6;
+  font-family: sans-serif;
+  color: #262626;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  margin-left: 10%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #fd8d3c;
+  margin-left: 0;
+
+}
+
+h1 a {
+  text-decoration: none;
+  color: #262626;
+  -webkit-transition: font-size 0.5s; /* Safari */
+  transition: font-size 0.5s;
+}
+
+h1 a:hover {
+  font-size: 35px;
+}
+
+.navbar ul {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 20px 3%;
+}
+
+.navbar li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fd8d3c;
+}
+
+.navbar li a:hover, .navbar li a:focus {
+  color: #bd0026;
+}
+
+#active {
+  color: #bd0026;
+}
+
+.description {
+  background-color: #262626;
+  margin: 0;
+  padding: 10px 10%;
+  margin-top: 40px;
+  color: #f4f4f4;
+}
+
+.description li {
+  padding: 2px;
+}
+
+#lighter {
+  color: #ffffb2;
+}
+
+#light {
+  color: #fecc5c;
+}
+
+#medium {
+  color: #fd8d3c;
+}
+
+#heavy {
+  color: #f03b20;
+}
+
+#heavier {
+  color: #bd0026;
+}
+
+.footer {
+  padding: 10px 10%
+}
+
+.footer h3 {
+  font-family: 'Abel', sans-serif;
+  text-align: right;
+}
